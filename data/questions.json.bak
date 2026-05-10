@@ -1,0 +1,626 @@
+[
+  {
+    "category": "Java SE",
+    "id": "java-se-001",
+    "question": "请解释JVM、JDK、JRE三者的区别与联系",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-002",
+    "question": "什么是Java的编译型和解释型？Java属于哪种？",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-003",
+    "question": "Oracle JDK和OpenJDK有什么区别？",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-004",
+    "question": "Java中++i和i++有什么区别？",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-005",
+    "question": "Java的基本数据类型有哪些？各占多少字节？",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-006",
+    "question": "什么是自动装箱和拆箱？原理是什么？",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-007",
+    "question": "为什么浮点数float和double不能精确表示0.1？",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-008",
+    "question": "什么是局部变量和成员变量？有什么区别？",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-009",
+    "question": "什么是Java的多态？它有哪几种形式？",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-010",
+    "question": "重载（Overloading）和重写（Override）的区别是什么？",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-011",
+    "question": "String为什么是不可变的？为什么要这样设计？",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-012",
+    "question": "String、StringBuilder、StringBuffer有什么区别？",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-013",
+    "question": "String s = new String(\"abc\")创建了几个对象？",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-014",
+    "question": "==和equals()方法有什么区别？",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-015",
+    "question": "hashCode()方法有什么作用？为什么重写equals()必须重写hashCode()？",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-016",
+    "question": "Exception和Error有什么区别？",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-017",
+    "question": "try-catch-finally的执行顺序是怎样的？",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-018",
+    "question": "什么是Java的泛型？为什么要使用泛型？",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-019",
+    "question": "什么是Java的反射？它有什么应用场景？",
+    "answer": ""
+  },
+  {
+    "category": "Java SE",
+    "id": "java-se-020",
+    "question": "什么是SPI机制？它与API有什么区别？",
+    "answer": ""
+  },
+  {
+    "category": "JVM",
+    "id": "jvm-001",
+    "question": "什么是JVM的运行时数据区？包含哪些区域？",
+    "answer": ""
+  },
+  {
+    "category": "JVM",
+    "id": "jvm-001",
+    "question": "JVM 的内存区域划分是怎样的？",
+    "answer": "JVM 内存主要分为以下区域："
+  },
+  {
+    "category": "JVM",
+    "id": "jvm-002",
+    "question": "JDK 7和JDK 8的JVM堆内存结构有什么区别？",
+    "answer": ""
+  },
+  {
+    "category": "JVM",
+    "id": "jvm-002",
+    "question": "什么是垃圾回收？如何判断一个对象是否需要被回收？",
+    "answer": "垃圾回收（GC）是 JVM 自动回收不再使用的对象，释放内存的过程。"
+  },
+  {
+    "category": "JVM",
+    "id": "jvm-003",
+    "question": "Minor GC和Full GC有什么区别？触发条件是什么？",
+    "answer": ""
+  },
+  {
+    "category": "JVM",
+    "id": "jvm-003",
+    "question": "常见的垃圾收集算法有哪些？",
+    "answer": "常见垃圾收集算法："
+  },
+  {
+    "category": "JVM",
+    "id": "jvm-004",
+    "question": "引用计数法和可达性分析有什么区别？",
+    "answer": ""
+  },
+  {
+    "category": "JVM",
+    "id": "jvm-004",
+    "question": "常见的垃圾收集器有哪些？",
+    "answer": "常见垃圾收集器："
+  },
+  {
+    "category": "JVM",
+    "id": "jvm-005",
+    "question": "Java中的四种引用类型有什么区别？",
+    "answer": ""
+  },
+  {
+    "category": "JVM",
+    "id": "jvm-005",
+    "question": "JVM 的类加载机制是什么？双亲委派模型是什么？",
+    "answer": "JVM 类加载过程分为 5 步："
+  },
+  {
+    "category": "JVM",
+    "id": "jvm-006",
+    "question": "常见的垃圾回收算法有哪些？各有优缺点？",
+    "answer": ""
+  },
+  {
+    "category": "JVM",
+    "id": "jvm-006",
+    "question": "什么是 OOM？如何排查和解决？",
+    "answer": "OOM（OutOfMemoryError，内存溢出）是 JVM 无法分配更多内存时的错误。"
+  },
+  {
+    "category": "JVM",
+    "id": "jvm-007",
+    "question": "有哪些垃圾收集器？它们分别适用于什么场景？",
+    "answer": ""
+  },
+  {
+    "category": "JVM",
+    "id": "jvm-008",
+    "question": "什么是类加载器？有哪些类型？",
+    "answer": ""
+  },
+  {
+    "category": "JVM",
+    "id": "jvm-009",
+    "question": "Tomcat为什么需要自定义类加载器？",
+    "answer": ""
+  },
+  {
+    "category": "Java集合",
+    "id": "collection-001",
+    "question": "ArrayList和LinkedList有什么区别？",
+    "answer": ""
+  },
+  {
+    "category": "Java集合",
+    "id": "collection-002",
+    "question": "HashMap的底层实现原理是什么？",
+    "answer": ""
+  },
+  {
+    "category": "Java集合",
+    "id": "collection-003",
+    "question": "HashMap为什么选择红黑树而不是AVL树？",
+    "answer": ""
+  },
+  {
+    "category": "Java集合",
+    "id": "collection-004",
+    "question": "HashMap的容量为什么是2的幂次方？",
+    "answer": ""
+  },
+  {
+    "category": "Java集合",
+    "id": "collection-005",
+    "question": "ConcurrentHashMap和Hashtable有什么区别？",
+    "answer": ""
+  },
+  {
+    "category": "Java集合",
+    "id": "collection-006",
+    "question": "HashSet和HashMap有什么关系？",
+    "answer": ""
+  },
+  {
+    "category": "Java集合",
+    "id": "collection-007",
+    "question": "fail-fast和fail-safe有什么区别？",
+    "answer": ""
+  },
+  {
+    "category": "Java集合",
+    "id": "collection-008",
+    "question": "Comparable和Comparator有什么区别？",
+    "answer": ""
+  },
+  {
+    "category": "设计模式",
+    "id": "pattern-001",
+    "question": "单例模式有哪几种实现方式？线程安全的有哪些？",
+    "answer": ""
+  },
+  {
+    "category": "设计模式",
+    "id": "pattern-002",
+    "question": "工厂模式有哪几种？有什么区别？",
+    "answer": ""
+  },
+  {
+    "category": "设计模式",
+    "id": "pattern-003",
+    "question": "装饰器模式和代理模式有什么区别？",
+    "answer": ""
+  },
+  {
+    "category": "设计模式",
+    "id": "pattern-004",
+    "question": "策略模式和状态模式有什么区别？",
+    "answer": ""
+  },
+  {
+    "category": "设计模式",
+    "id": "pattern-005",
+    "question": "观察者模式在Java中如何实现？有什么应用？",
+    "answer": ""
+  },
+  {
+    "category": "设计模式",
+    "id": "pattern-006",
+    "question": "责任链模式有什么应用场景？",
+    "answer": ""
+  },
+  {
+    "category": "设计模式",
+    "id": "pattern-007",
+    "question": "适配器模式有什么应用？",
+    "answer": ""
+  },
+  {
+    "category": "设计模式",
+    "id": "pattern-008",
+    "question": "什么是Spring中的设计模式？请举例说明",
+    "answer": ""
+  },
+  {
+    "category": "Spring",
+    "id": "spring-001",
+    "question": "Spring 的 IOC 是什么？它的工作原理是什么？",
+    "answer": "IOC（Inversion of Control，控制反转）是 Spring 的核心思想之一。"
+  },
+  {
+    "category": "Spring",
+    "id": "spring-002",
+    "question": "Spring Bean 的生命周期是怎样的？",
+    "answer": "Spring Bean 的生命周期大致如下："
+  },
+  {
+    "category": "Spring",
+    "id": "spring-003",
+    "question": "Spring AOP 的原理是什么？JDK 动态代理和 CGLIB 有什么区别？",
+    "answer": "AOP（Aspect Oriented Programming，面向切面编程）将重复的逻辑提取出来，在需要的地方进行增强。"
+  },
+  {
+    "category": "Spring",
+    "id": "spring-004",
+    "question": "@Autowired 和 @Resource 有什么区别？",
+    "answer": "@Autowired 和 @Resource 都用于依赖注入，主要区别："
+  },
+  {
+    "category": "Spring",
+    "id": "spring-005",
+    "question": "Spring 事务的传播行为有哪些？",
+    "answer": "Spring 事务的 7 种传播行为："
+  },
+  {
+    "category": "Spring",
+    "id": "spring-006",
+    "question": "MyBatis 中 #{} 和 ${} 有什么区别？",
+    "answer": "#{} 和 ${} 的区别："
+  },
+  {
+    "category": "Spring",
+    "id": "spring-007",
+    "question": "Spring MVC 的工作流程是什么？",
+    "answer": "Spring MVC 工作流程："
+  },
+  {
+    "category": "MySQL",
+    "id": "mysql-001",
+    "question": "MySQL 有哪些存储引擎？InnoDB 和 MyISAM 有什么区别？",
+    "answer": "MySQL 主要存储引擎："
+  },
+  {
+    "category": "MySQL",
+    "id": "mysql-002",
+    "question": "什么是事务？事务的四大特性是什么？",
+    "answer": "事务是一组操作的集合，这些操作要么全部成功，要么全部失败。"
+  },
+  {
+    "category": "MySQL",
+    "id": "mysql-003",
+    "question": "MySQL 的隔离级别有哪些？分别解决了什么问题？",
+    "answer": "MySQL 四种隔离级别："
+  },
+  {
+    "category": "MySQL",
+    "id": "mysql-004",
+    "question": "什么是索引？MySQL 有哪些索引类型？",
+    "answer": "索引是帮助 MySQL 高效获取数据的数据结构。"
+  },
+  {
+    "category": "MySQL",
+    "id": "mysql-005",
+    "question": "什么是 MVCC？它是如何实现的？",
+    "answer": "MVCC（Multi-Version Concurrency Control，多版本并发控制）是一种并发控制机制，通过保存数据的多个版本来实现非阻塞读。"
+  },
+  {
+    "category": "MySQL",
+    "id": "mysql-006",
+    "question": "MySQL 的日志有哪些？redo log、binlog、undo log 的区别是什么？",
+    "answer": "MySQL 三种主要日志："
+  },
+  {
+    "category": "Redis",
+    "id": "redis-001",
+    "question": "Redis 有哪些数据结构？常用命令有哪些？",
+    "answer": "Redis 常用 5 种数据结构："
+  },
+  {
+    "category": "Redis",
+    "id": "redis-002",
+    "question": "Redis 的持久化机制有哪些？RDB 和 AOF 有什么区别？",
+    "answer": "Redis 两种持久化方式："
+  },
+  {
+    "category": "Redis",
+    "id": "redis-003",
+    "question": "Redis 的过期键删除策略有哪些？",
+    "answer": "Redis 三种过期键删除策略："
+  },
+  {
+    "category": "Redis",
+    "id": "redis-004",
+    "question": "Redis 淘汰策略有哪些？",
+    "answer": "当 Redis 内存不足时，有 8 种淘汰策略："
+  },
+  {
+    "category": "Redis",
+    "id": "redis-005",
+    "question": "Redis 集群有哪些模式？什么是 Redis Sentinel？",
+    "answer": "Redis 集群模式主要有："
+  },
+  {
+    "category": "Redis",
+    "id": "redis-006",
+    "question": "Redis 的 Pipeline 有什么作用？",
+    "answer": "Redis Pipeline（管道）是客户端提供的批量执行命令的技术。"
+  },
+  {
+    "id": "distributed-001",
+    "category": "分布式",
+    "question": "什么是CAP定理？为什么分布式系统只能同时满足CAP中的两个？",
+    "answer": "CAP定理是Eric Brewer于2000年提出的理论，包含三个核心概念：\n\n1. 一致性(Consistency)：所有节点在同一时刻看到相同的数据。\n\n2. 可用性(Availability)：每个请求都能在有限时间内获得响应。\n\n3. 分区容错性(Partition tolerance)：系统在网络分区故障时仍能继续运行。\n\n为什么只能满足两个？\n- 网络分区不可避免（分布式系统必须容忍分区）\n- 如果选择CA（放弃P），则分区时系统不可用\n- 如果选择CP（放弃A），则分区时可能长时间不可用\n- 如果选择AP（放弃C），则无法保证强一致性\n\n实际选择：Redis/Nacos等选择AP（最终一致性），Zookeeper/HBase等选择CP（强一致性）。"
+  },
+  {
+    "id": "distributed-002",
+    "category": "分布式",
+    "question": "什么是BASE理论？与ACID有什么区别？",
+    "answer": "BASE理论是对CAP中一致性和可用性权衡的实践总结：\n\nBASE = Basically Available + Soft state + Eventually consistent\n\n1. 基本可用(Basically Available)：允许系统在故障时降级。\n\n2. 软状态(Soft state)：数据状态可以在一段时间内不同步。\n\n3. 最终一致性(Eventually consistent)：系统在一段时间后达到一致状态。\n\n与ACID的区别：\n- ACID追求刚性，BASE追求柔性\n- ACID是强一致性，BASE是最终一致性\n- ACID牺牲可用性，BASE保证基本可用\n- ACID用于银行转账，BASE用于互联网业务\n\n实际应用：淘宝双十一降级非核心功能，12306先排队后确认异步处理。"
+  },
+  {
+    "id": "distributed-003",
+    "category": "分布式",
+    "question": "什么是2PC（两阶段提交）？有什么缺点？",
+    "answer": "2PC(Two-Phase Commit)是分布式事务协议：\n\n阶段一：准备阶段(Prepare)\n- 协调者向所有参与者发送Prepare请求\n- 参与者执行事务（写入undo/redo log），但不提交\n- 参与者返回准备就绪或失败\n\n阶段二：提交阶段(Commit)\n- 如果所有参与者都准备好，协调者发送Commit\n- 如果任何一个失败，协调者发送Rollback\n- 所有参与者提交或回滚\n\n2PC的问题：\n1. 同步阻塞：参与者资源锁定时间长\n2. 单点故障：协调者崩溃后参与者阻塞\n3. 数据不一致：协调者崩溃可能导致部分提交\n4. 无法处理并发：阻塞模型，性能差\n\n改进方案：3PC（三阶段提交）、TCC（业务层面补偿）、Seata（阿里分布式事务解决方案）。"
+  },
+  {
+    "id": "distributed-004",
+    "category": "分布式",
+    "question": "什么是TCC事务模式？与2PC有什么区别？",
+    "answer": "TCC(Try-Confirm-Cancel)是柔性事务的一种实现模式：\n\n三个阶段：\n1. Try（预留）：检查业务资源，锁定资源（预检）\n2. Confirm（确认）：执行真正的业务操作\n3. Cancel（取消）：撤销Try阶段的操作\n\n与2PC的区别：\n- 2PC是数据库层面，TCC是业务层面\n- 2PC锁数据库资源，TCC锁业务资源\n- 2PC侵入性低，TCC侵入性高\n- 2PC性能较差，TCC性能较好\n- 2PC自动回滚，TCC手动补偿\n\nTCC的问题：\n- 空回滚：Try未执行但Cancel执行\n- 悬挂：Cancel先于Confirm执行\n- 幂等性：Confirm/Cancel重复执行"
+  },
+  {
+    "id": "distributed-005",
+    "category": "分布式",
+    "question": "分布式锁有哪些实现方式？Redis和Zookeeper有什么区别？",
+    "answer": "分布式锁实现方式：\n\n1. Redis实现（SET NX + EX）：\nSET lock_key unique_value NX PX 30000\n释放锁时用Lua脚本保证原子性。\n\n2. Redis + Redisson：提供完整的分布式锁实现（可重入、看门狗自动续期）。\n\n3. Zookeeper实现（临时有序节点）：\n- 创建临时节点表示锁\n- 获取最小序号节点获得锁\n- 通过Watcher监听前一个节点\n\nRedis vs Zookeeper：\n- 性能：Redis更高（内存操作），ZK较低（写磁盘）\n- 可靠性：Redis较弱（需考虑主从），ZK较强（一致性）\n- 特性：Redis支持过期，ZK支持Watch\n- 场景：Redis用于高性能场景，ZK用于高可靠场景\n\nRedisson实现原理：\n- 看门狗：自动续期防止死锁\n- 可重入：Hash记录线程和重入次数\n- 发布订阅：异步释放锁唤醒等待者"
+  },
+  {
+    "id": "mq-001",
+    "category": "消息队列",
+    "question": "Kafka为什么这么快？它的架构是怎样的？",
+    "answer": "Kafka快的原因：\n\n1. 顺序写磁盘：利用追加写入特性，顺序写速度接近内存\n\n2. 页缓存(Page Cache)：Linux系统将磁盘文件映射到内存，避免JVM GC\n\n3. 零拷贝(Zero Copy)：使用DMA技术，从Page Cache直接到Socket\n\n4. 批量处理：消息批量压缩、批量发送、批量消费\n\n5. 稀疏索引：利用稀疏索引快速定位消息\n\n6. 页缓存预读：读取时预加载相邻数据到缓存\n\nKafka架构：\n- Topic：消息主题\n- Partition：分区，实现并行处理和水平扩展\n- Replication：副本机制，保证高可用\n- ISR(In-Sync Replicas)：与Leader保持同步的副本集合\n- Controller：管理分区Leader选举\n\n消息存储结构：每个Partition对应一个目录，包含.index、.timeindex、.log文件，稀疏索引按offset定位消息。"
+  },
+  {
+    "id": "mq-002",
+    "category": "消息队列",
+    "question": "如何保证Kafka消息不丢失？",
+    "answer": "消息丢失的三个环节：\n\n1. 生产者到Broker\n- 使用带回调的发送：producer.send(record, callback)\n- 配置：acks=all（所有ISR确认）+ retries=Integer.MAX_VALUE\n- 启用幂等性：enable.idempotence=true\n\n2. Broker存储\n- 配置：replication.factor >= 3\n- 配置：min.insync.replicas >= 2\n- 合理设置flush策略\n\n3. Consumer到业务\n- 手动提交Offset：先处理再提交\n- 幂等处理：防重复消费\n\n配置示例：\nproducer.properties:\nacks=all\nretries=2147483647\nenable.idempotence=true\nmax.in.flight.requests.per.connection=1\n\nbroker.properties:\nreplication.factor=3\nmin.insync.replicas=2\n\nconsumer.properties:\nenable.auto.commit=false\n\n最佳实践：使用幂等Producer，合理设置ISR，监控消息堆积和消费延迟。"
+  },
+  {
+    "id": "mq-003",
+    "category": "消息队列",
+    "question": "Kafka如何保证消息顺序性？",
+    "answer": "Kafka顺序保证的层级：\n\n1. Partition内有序（默认）：同一个Partition的消息按offset顺序消费。\n\n2. 全局有序（需特殊处理）：单Partition方案牺牲扩展性，Key路由方案相同Key进入同一Partition。\n\n乱序场景及解决方案：\n\n场景1：多Producer并发发送\n解决：单Producer或同步发送\n\n场景2：Consumer多实例\n解决：单Consumer消费或自定义分区\n\n场景3：重试导致乱序\n解决：max.in.flight.requests.per.connection=1，或使用事务\n\n代码示例：\n相同userId保证有序：\nProducerRecord record = new ProducerRecord<>(\"topic\", userId, message);\nproducer.send(record);\n\n单Consumer消费：\nfactory.setConcurrency(1); // 单线程消费\n\n常见面试题：单Partition能保证有序吗？能；如何实现局部有序？按业务Key分区。"
+  },
+  {
+    "id": "mq-004",
+    "category": "消息队列",
+    "question": "RocketMQ的事务消息是如何实现的？",
+    "answer": "RocketMQ事务消息流程：\n\n阶段1：发送半消息（Half Message）\n- Producer发送预处理消息到RMQ_SYS_TRANS_HALF_TOPIC\n- 消息状态：Prepared，不可被消费\n\n阶段2：执行本地事务\n- 执行业务逻辑，扣库存、下订单等\n- 根据执行结果提交或回滚\n\n阶段3：确认消息\n- commit：消息从Half Topic转移到真实Topic，可被消费\n- rollback：消息被删除\n\n阶段4：事务回查\n- 如果Broker未收到确认，启动定时任务\n- 调用Producer的checkLocalTransactionState接口\n- 确定本地事务状态\n\n与Kafka对比：\n- RocketMQ：事务消息原生支持\n- Kafka：需要自己实现类似逻辑（Outbox Pattern）"
+  },
+  {
+    "id": "mq-005",
+    "category": "消息队列",
+    "question": "如何解决消息重复消费问题？",
+    "answer": "消息重复消费的三种场景：\n\n1. Producer发送重试：网络抖动导致重复发送\n2. Consumer处理超时：消费者超时，Broker重发\n3. Consumer宕机重启：未提交的Offset重发\n\n解决方案：\n\n1. 幂等性设计（推荐）：业务去重表记录已处理的消息ID\nINSERT INTO dedup_table (msg_id, status) VALUES (?, 'PROCESSING')\nON DUPLICATE KEY UPDATE status = 'PROCESSING';\n\n2. 唯一Key处理：Redis Set存储已处理Key，防重表按业务ID去重\n\n3. 业务状态机：处理前检查状态，防止重复处理\n\n4. 消费前检查：消费前先查询数据库状态，避免重复扣款、重复创建订单\n\n最佳实践：\n查询是否已处理，存在则跳过，然后幂等处理。\n\n核心思想：消费端必须保证幂等性，业务逻辑要具备防重能力。"
+  },
+  {
+    "id": "network-001",
+    "category": "计算机网络",
+    "question": "TCP三次握手和四次挥手过程是怎样的？",
+    "answer": "TCP三次握手（建立连接）：\n\nClient -> Server: SYN=1, seq=x\nServer -> Client: SYN=1, ACK=1, seq=y, ack=x+1\nClient -> Server: ACK=1, seq=x+1, ack=y+1\n\n为什么三次：\n- 第一次：客户端确认自己能发\n- 第二次：服务端确认自己能收+能发\n- 第三次：客户端确认服务端能收\n- 两次不够，四次浪费\n\nTCP四次挥手（断开连接）：\n\nClient -> Server: FIN=1, seq=u\nServer -> Client: ACK=1, ack=u+1（可以继续发送数据）\nServer -> Client: FIN=1, seq=w（准备关闭）\nClient -> Server: ACK=1, ack=w+1（进入TIME_WAIT）\n\n为什么需要TIME_WAIT：\n- 确保对方收到最后的ACK\n- 让旧连接的重复数据包在网络中消失\n- 持续2MSL（Maximum Segment Lifetime）\n\n抓包示例：tcpdump -i eth0 'tcp[tcpflags] & (tcp-syn|tcp-fin) != 0'"
+  },
+  {
+    "id": "network-002",
+    "category": "计算机网络",
+    "question": "TCP和UDP有什么区别？各自适用场景是什么？",
+    "answer": "TCP vs UDP对比：\n\n特性对比：\n- 连接性：TCP面向连接，UDP无连接\n- 可靠性：TCP可靠，UDP不可靠\n- 有序性：TCP有序，UDP无序\n- 速度：TCP较慢，UDP快\n- 头部：TCP 20-60字节，UDP 8字节\n- 流量控制：TCP有（滑动窗口），UDP无\n- 拥塞控制：TCP有，UDP无\n\nTCP核心机制：\n1. 流量控制：滑动窗口，根据接收方能力调整\n2. 拥塞控制：慢启动、拥塞避免、快速恢复\n3. ARQ：自动重传请求，丢包重发\n4. 序号/确认：保证有序和完整\n\n适用场景：\n\nTCP适用：文件传输（HTTP/HTTPS/FTP）、邮件（SMTP/POP3）、远程登录（SSH/Telnet）、需要可靠传输的场景。\n\nUDP适用：实时音视频（直播、视频会议）、DNS查询、DHCP、游戏（容忍丢包）、QUIC协议（HTTP/3底层）。\n\n为什么视频用UDP：容忍丢包宁愿卡顿也不愿延迟，实时性大于可靠性，重传会导致更大的延迟。"
+  },
+  {
+    "id": "network-003",
+    "category": "计算机网络",
+    "question": "HTTP和HTTPS有什么区别？HTTPS的加密过程是怎样的？",
+    "answer": "HTTP vs HTTPS：\n\n- 端口：HTTP用80，HTTPS用443\n- 加密：HTTP无，HTTPS有SSL/TLS\n- 安全性：HTTP低，HTTPS高\n- 性能：HTTP略高，HTTPS略低（加密开销）\n- 证书：HTTP不需要，HTTPS需要CA证书\n- 搜索排名：HTTP降权，HTTPS加权\n\nHTTPS加密过程（TLS 1.2）：\n\n1. Client Hello：客户端发送支持的TLS版本、加密套件、随机数\n\n2. Server Hello：服务端选择加密套件，返回随机数\n\n3. 证书发送：服务端发送CA证书链\n\n4. 密钥协商（两种方式）：\n   - RSA：客户端生成pre-master secret，用公钥加密发送\n   - ECDHE：双方使用椭圆曲线DH算法交换参数\n\n5. 密钥生成：\n   master_secret = PRF(pre_master_secret, \"master secret\", ClientRandom + ServerRandom)\n   双方得到相同的对称密钥\n\n6. 加密通信：使用AES等对称加密\n\nTLS 1.3优化：1-RTT握手减少延迟，移除不安全加密套件，0-RTT复用在session ticket中携带数据。\n\n证书验证流程：客户端使用CA公钥验证签名，检查证书链（中间CA到根CA），验证证书有效期和域名，检查证书吊销列表（CRL/OCSP）。"
+  },
+  {
+    "id": "network-004",
+    "category": "计算机网络",
+    "question": "什么是滑动窗口？TCP是如何实现流量控制的？",
+    "answer": "滑动窗口（Sliding Window）：\n- TCP用于流量控制的机制\n- 允许发送方在确认前发送多个数据包\n- 窗口大小动态调整\n\n工作原理：\n发送方窗口：[已发送已确认] [已发送未确认] [允许发送] [不允许发送]\n\n随着ACK到来，窗口向右滑动。\n\n三个指针：\n1. SND.UNA：第一个未确认字节\n2. SND.NXT：下一个可发送字节\n3. SND.WND：窗口大小\n\n流量控制：\n\n接收方在ACK中携带rwnd（接收窗口大小）\n发送方确保 SND.NXT - SND.UNA <= rwnd\n\n当rwnd=0时：\n- 发送方停止发送数据\n- 但仍发送Zero Window Probe保活\n- 直到收到rwnd>0的ACK\n\n问题：糊涂窗口综合征，接收方窗口很小时发送方发送小数据包，浪费网络资源。\n\n解决：Nagle算法合并小数据包，延迟确认不立即ACK，窗口探测定期发送窗口探测报文。\n\n拥塞控制（配合流量控制）：慢启动指数增长cwnd，拥塞避免线性增长cwnd，快速重传收到3个ACK后重传，快速恢复调整cwnd继续发送。"
+  },
+  {
+    "id": "network-005",
+    "category": "计算机网络",
+    "question": "输入URL后发生了什么？从DNS到页面渲染的完整流程",
+    "answer": "完整流程：\n\n1. DNS解析\n2. 建立TCP连接（可能涉及CDN）\n3. TLS握手（HTTPS）\n4. 发送HTTP请求\n5. 服务器处理并返回HTTP响应\n6. 渲染页面\n\n详细步骤：\n\n1. DNS解析：浏览器缓存 -> 系统缓存 -> hosts文件 -> 递归查询（本地域名服务器）-> 根域名服务器 -> 顶级域名服务器 -> 权威域名服务器。DNS使用UDP端口53，记录类型：A（IPv4）、AAAA（IPv6）、CNAME（别名），存在TTL缓存。\n\n2. TCP连接：三次握手建立连接，复用连接（Connection: Keep-Alive）。\n\n3. TLS握手（HTTPS）：1-RTT或0-RTT握手，协商加密套件，验证证书。\n\n4. HTTP请求示例：\nGET / HTTP/1.1\nHost: www.example.com\nUser-Agent: ...\nAccept: ...\n\n5. 服务器处理：反向代理（Nginx）、负载均衡、应用服务器处理、数据库查询、返回响应。\n\n6. 浏览器渲染流程：\nHTML解析 -> DOM树\nCSS解析 -> CSSOM\nDOM + CSSOM -> Render Tree\nLayout（布局）\nPaint（绘制）\nComposite（合成）\n\n优化建议：DNS预解析（<link rel=\"dns-prefetch\">）、TCP预连接（<link rel=\"preconnect\">）、HTTP/2多路复用、资源压缩和合并、CDN加速。"
+  },
+  {
+    "id": "os-001",
+    "category": "操作系统",
+    "question": "什么是进程和线程？有什么区别？",
+    "answer": "进程（Process）：\n- 程序的一次执行实例\n- 拥有独立的地址空间（代码段、数据段、堆、栈）\n- 系统资源分配的基本单位\n- 通信需要IPC机制\n\n线程（Thread）：\n- 进程内的执行单元\n- 共享进程的地址空间\n- CPU调度的基本单位\n- 轻量级，创建/切换开销小\n\n区别：\n- 资源分配：进程独立地址空间，线程共享进程资源\n- 开销：进程大，线程小\n- 通信：进程用IPC，线程直接读写共享变量\n- 隔离性：进程完全隔离，线程共享内存需同步\n- 效率：进程较低，线程较高\n\nJava线程与系统线程：\n- JDK 1.0：Green Thread（绿色线程，JVM模拟）\n- JDK 1.2+：Native Thread（映射到系统线程）\n- 线程数建议：CPU密集型=CPU核数，IO密集型>CPU核数\n\n线程私有资源：栈（局部变量、操作数栈）、程序计数器、寄存器、线程本地存储（ThreadLocal）。"
+  },
+  {
+    "id": "os-002",
+    "category": "操作系统",
+    "question": "进程调度算法有哪些？Linux使用的是什么？",
+    "answer": "常见调度算法：\n\n1. FCFS（先来先服务）：按到达顺序执行，简单但效率低\n\n2. SJF（最短作业优先）：执行时间最短的先执行，可能导致饥饿\n\n3. 时间片轮转（Round Robin）：每个进程执行一个时间片，公平但上下文切换开销大\n\n4. 优先级调度：优先级高的先执行，低优先级可能饥饿\n\n5. 多级反馈队列：结合多种算法，动态调整优先级和时间片\n\nLinux调度算法：\n\n1. O(1)调度器（2.6内核前）：固定128个优先级队列，时间复杂度O(1)\n\n2. CFS（Completely Fair Scheduler）：\n- 基于红黑树，按vruntime排序\n- 虚拟运行时间 = 实际运行时间 * (NICE_0_LOAD / 权重)\n- 完全公平，追求低延迟\n\n3. 实时调度：\n- SCHED_FIFO：先进先出，无时间片\n- SCHED_RR：轮询，有时间片\n- SCHED_DEADLINE：最晚截止时间优先\n\nCFS核心概念：vruntime = 实际运行时间 * (1024 / 进程权重)，nice值越大（优先级低），权重越小，vruntime增长越慢，红黑树最左侧节点获得CPU。"
+  },
+  {
+    "id": "os-003",
+    "category": "操作系统",
+    "question": "什么是死锁？产生条件是什么？如何避免？",
+    "answer": "死锁（Deadlock）：两个或多个进程相互等待对方释放资源，形成循环等待。\n\n产生死锁的四个必要条件：\n\n1. 互斥条件：资源只能被一个进程占用\n2. 请求和保持：进程保持已获资源，请求新资源\n3. 不可抢占：资源未释放前无法被抢占\n4. 循环等待：形成进程-资源环形链\n\n银行家算法：预防死锁的经典算法，分配前检查安全性，复杂实际使用少。\n\n避免策略：\n1. 破坏请求和保持：一次性申请所有资源，或资源不够则释放已占资源\n2. 破坏不可抢占：允许强行抢占资源\n3. 破坏循环等待：按顺序申请资源，释放后再申请\n\n实际解决方案：\n1. 加锁顺序：所有线程按相同顺序获取锁\n2. trylock + 回退：获取失败则释放已获锁\n3. 超时机制：lock.tryLock(timeout)\n4. 检测恢复：定期检查死锁，强制释放资源\n\n示例（转账死锁）：不同顺序加锁可能死锁，统一顺序：Account first = a.id < b.id ? a : b; synchronized(first) { synchronized(second) { ... } }"
+  },
+  {
+    "id": "os-004",
+    "category": "操作系统",
+    "question": "什么是虚拟内存？为什么需要它？",
+    "answer": "虚拟内存（Virtual Memory）：\n- 为每个进程提供独立的连续地址空间\n- 通过页表映射到物理内存\n- 扩展可用内存，允许使用硬盘作为扩展\n\n为什么需要虚拟内存：\n\n1. 内存隔离：进程间不相互影响，增加安全性\n\n2. 简化编程：程序员看到连续地址，无需关心物理布局\n\n3. 扩展地址空间：使用比实际物理内存更大的内存\n\n4. 内存共享：代码段、共享库可以被多个进程共享\n\n5. 按需分配：页面按需加载，减少初始加载时间\n\n虚拟地址转换：\n虚拟地址经过页目录基址+页目录索引找到页表项，再经过页表基址+页索引找到物理页框，最后得到物理地址。\n\n分页管理：常见页面大小4KB，虚拟地址=页号+页内偏移，TLB（Translation Lookaside Buffer）加速转换。\n\n缺页中断：访问的页面不在内存时触发缺页异常，从磁盘加载页面，更新页表后继续执行。\n\n页面置换算法：LRU（最近最少使用）、FIFO（先进先出）、Clock算法（近似LRU）。"
+  },
+  {
+    "id": "iq-001",
+    "category": "智力题",
+    "question": "25匹马，5条跑道，最少需要几次比赛找出前3名？",
+    "answer": "最少需要7次。\n\n步骤：\n\n第1-5轮：将25匹马分成5组，每组5匹，各跑一次。记录每组排名（A1>A2>A3>A4>A5等）。\n\n第6轮：取每组第一名比赛。假设排名：A1>B1>C1>D1>E1，则A1必是第1名。现在知道：B1>C1>D1>E1，B1可能的排名：2或3，C1可能的排名：2、3或4。\n\n第7轮：确定第2、3名。可能候选：B1, C1, A2, B2, A3，共5匹马，跑一次，取前2名就是第2、3名。\n\n证明7次最优：5条跑道每次最多比较5匹马，25匹马至少需要5次分组，确定第1名至少需要1次，确定2-3名至少需要1次，共至少7次。\n\n类似问题：8个球1个比其他的重，天平几次找到？（2次）；1000瓶药1瓶有毒，白鼠几次找到？（10次）。"
+  },
+  {
+    "id": "iq-002",
+    "category": "智力题",
+    "question": "两个人约好6点到7点见面，先到者等15分钟就走，问两人见面的概率？",
+    "answer": "概率为 7/16。\n\n解析：建立坐标系，设X轴为甲到达时间（0-60分钟），Y轴为乙到达时间（0-60分钟）。两人能见面的条件：|X - Y| <= 15。\n\n几何分析：\n- 总面积：60 x 60 = 3600\n- 不可见面积：两个三角形，斜边长45\n- 每个三角形面积 = 1/2 x 45 x 45 = 1012.5\n- 可见面积 = 3600 - 2 x 1012.5 = 1575\n\n概率 = 1575 / 3600 = 7/16 approximately 0.4375\n\n图解：y轴60处开始，向右下45度划线到原点方向，两侧三角形为不可见区域，中间菱形区域为可见区域。\n\n扩展：如果等待时间改为t，概率 = 1 - (60-t) squared / 3600。t=0时概率为1（随时见面），t=60时概率为0（必须同时到）。"
+  },
+  {
+    "id": "iq-003",
+    "category": "智力题",
+    "question": "烧一根不均匀的绳子需要1小时，现有若干根绳子，如何计时45分钟？",
+    "answer": "方法：\n\n准备：两根绳子A和B\n\n步骤：\n1. 点燃绳子A两端（同时点燃两头），烧完时间：30分钟（一半燃烧速度x2 = 完整时间）\n\n2. 当绳子A烧完时，点燃绳子B的一端。此时绳子B已燃烧30分钟，剩余可燃时间：30分钟\n\n3. 再点燃绳子B另一端。两端同时燃烧，速度翻倍，剩余30分钟变为15分钟烧完\n\n总时间：30分钟 + 15分钟 = 45分钟\n\n扩展问题 - 计时1小时15分钟：\n准备4根绳子，第一根A两端点燃（30分钟），同时点燃B一端（30分钟后点燃B另一端，再15分钟），用类似方法叠加得到45分钟的倍数。\n\n本质：利用绳子燃烧速度不均匀，但两端燃烧速度=正常燃烧x2的性质，通过同时点燃两端实现时间减半的效果。"
+  },
+  {
+    "category": "并发/多线程",
+    "id": "concurrent-001",
+    "question": "synchronized 的原理是什么？JDK1.6 之后做了哪些优化？",
+    "answer": "synchronized 是 JVM 基于 Monitor 对象实现的同步机制。在 JDK1.6 之前，synchronized 是重量级锁，直接调用操作系统互斥量实现。JDK1.6 之后引入了偏向锁、轻量级锁、自旋锁等优化："
+  },
+  {
+    "category": "并发/多线程",
+    "id": "concurrent-002",
+    "question": "volatile 的作用是什么？它的实现原理是什么？",
+    "answer": "volatile 是 Java 提供的轻量级同步机制，主要有两个作用："
+  },
+  {
+    "category": "并发/多线程",
+    "id": "concurrent-003",
+    "question": "线程池有哪些？核心参数有哪些？线程池的执行流程是什么？",
+    "answer": "Java 中常用的线程池有："
+  },
+  {
+    "category": "并发/多线程",
+    "id": "concurrent-004",
+    "question": "ReentrantLock 和 synchronized 有什么区别？",
+    "answer": "ReentrantLock（可重入锁）和 synchronized 都是 Java 中的锁机制，主要区别如下："
+  },
+  {
+    "category": "并发/多线程",
+    "id": "concurrent-005",
+    "question": "什么是 AQS？它的工作原理是什么？",
+    "answer": "AQS（AbstractQueuedSynchronizer）是 Java 并发包中实现同步器的基础框架，ReentrantLock、Semaphore、CountDownLatch、ReentrantReadWriteLock 等都基于它实现。"
+  },
+  {
+    "category": "并发/多线程",
+    "id": "concurrent-006",
+    "question": "ThreadLocal 是什么？它的工作原理是什么？有什么潜在问题？",
+    "answer": "ThreadLocal 是 Java 提供的线程本地存储机制，每个线程都有自己独立的 ThreadLocal 副本。"
+  },
+  {
+    "category": "并发/多线程",
+    "id": "concurrent-007",
+    "question": "CAS 是什么？它有什么优缺点？什么是 ABA 问题？",
+    "answer": "CAS（Compare And Swap/Set）是乐观锁的一种实现方式，通过三个参数(V, E, N)实现：V表示当前值，E表示期望值，N表示新值。只有当 V==E 时，才会将 V 设为 N；否则说明其他线程已经修改过，当前线程什么也不做。"
+  },
+  {
+    "category": "并发/多线程",
+    "id": "concurrent-008",
+    "question": "什么是 Java 内存模型（JMM）？它解决了什么问题？",
+    "answer": "JMM（Java Memory Model）是 Java 并发编程的基础模型，它定义了 JVM 在计算机内存中的工作方式，解决并发编程中的三大问题："
+  },
+  {
+    "category": "并发/多线程",
+    "id": "concurrent-009",
+    "question": "CountDownLatch、CyclicBarrier、Semaphore 有什么区别？",
+    "answer": "这三个都是 Java 并发包中的同步辅助类："
+  },
+  {
+    "category": "并发/多线程",
+    "id": "concurrent-010",
+    "question": "ConcurrentHashMap 的工作原理是什么？JDK1.7 和 JDK1.8 有什么区别？",
+    "answer": "ConcurrentHashMap 是线程安全的 HashMap。"
+  },
+  {
+    "category": "并发/多线程",
+    "id": "concurrent-011",
+    "question": "线程的生命周期有哪些状态？它们之间如何转换？",
+    "answer": "线程的生命周期有5种状态："
+  },
+  {
+    "category": "并发/多线程",
+    "id": "concurrent-012",
+    "question": "wait() 和 sleep() 有什么区别？",
+    "answer": "wait() 和 sleep() 的主要区别："
+  }
+]
