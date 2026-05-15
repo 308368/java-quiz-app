@@ -1,6 +1,50 @@
 import { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
+
+// 自定义代码块渲染器
+const CodeBlock = ({ node, className, children, ...props }: any) => {
+  const match = /language-(\w+)/.exec(className || '');
+  const language = match ? match[1] : '';
+  const codeString = String(children).replace(/\n$/, '');
+
+  if (match || codeString.includes('\n')) {
+    return (
+      <div className="relative group my-3">
+        {language && (
+          <div className="absolute top-0 right-0 px-2 py-1 text-xs text-gray-500 bg-gray-700 rounded-bl rounded-tr-md opacity-0 group-hover:opacity-100 transition-opacity">
+            {language}
+          </div>
+        )}
+        <SyntaxHighlighter
+          style={vscDarkPlus}
+          language={language || 'java'}
+          PreTag="div"
+          customStyle={{
+            margin: 0,
+            borderRadius: '8px',
+            fontSize: '13px',
+            lineHeight: '1.6',
+            padding: '16px',
+            backgroundColor: '#1a1a2e',
+            border: '1px solid #2d2d44',
+          }}
+          {...props}
+        >
+          {codeString}
+        </SyntaxHighlighter>
+      </div>
+    );
+  }
+
+  return (
+    <code className={className} {...props}>
+      {children}
+    </code>
+  );
+};
 
 interface QuizCardProps {
   question: string;
@@ -34,7 +78,12 @@ export default function QuizCard({
       </div>
       <div className="p-5">
         <div className="prose prose-invert prose-sm max-w-none mb-5">
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{question}</ReactMarkdown>
+          <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
+            components={{ code: CodeBlock }}
+          >
+            {question}
+          </ReactMarkdown>
         </div>
         <form onSubmit={handleSubmit}>
           <textarea

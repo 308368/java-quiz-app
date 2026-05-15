@@ -3,6 +3,50 @@ import { useNavigate } from 'react-router-dom';
 import { useQuizEngine } from '../hooks/useQuizEngine';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
+
+// 自定义代码块渲染器
+const CodeBlock = ({ node, className, children, ...props }: any) => {
+  const match = /language-(\w+)/.exec(className || '');
+  const language = match ? match[1] : '';
+  const codeString = String(children).replace(/\n$/, '');
+
+  if (match || codeString.includes('\n')) {
+    return (
+      <div className="relative group my-3">
+        {language && (
+          <div className="absolute top-0 right-0 px-2 py-1 text-xs text-gray-500 bg-gray-700 rounded-bl rounded-tr-md opacity-0 group-hover:opacity-100 transition-opacity">
+            {language}
+          </div>
+        )}
+        <SyntaxHighlighter
+          style={vscDarkPlus}
+          language={language || 'java'}
+          PreTag="div"
+          customStyle={{
+            margin: 0,
+            borderRadius: '8px',
+            fontSize: '13px',
+            lineHeight: '1.6',
+            padding: '16px',
+            backgroundColor: '#1a1a2e',
+            border: '1px solid #2d2d44',
+          }}
+          {...props}
+        >
+          {codeString}
+        </SyntaxHighlighter>
+      </div>
+    );
+  }
+
+  return (
+    <code className={className} {...props}>
+      {children}
+    </code>
+  );
+};
 
 export default function WrongNotesPage() {
   const { questions, wrongNotes, categories, restoreQuestion, removeFromWrongNotes } = useQuizEngine();
@@ -133,7 +177,12 @@ export default function WrongNotesPage() {
                       <div>
                         <h4 className="text-xs uppercase tracking-wide text-gray-500 mb-2">正确答案</h4>
                         <div className="prose prose-invert prose-sm max-w-none p-3 bg-gray-800 rounded-lg text-gray-300">
-                          <ReactMarkdown remarkPlugins={[remarkGfm]}>{q.answer}</ReactMarkdown>
+                          <ReactMarkdown
+                            remarkPlugins={[remarkGfm]}
+                            components={{ code: CodeBlock }}
+                          >
+                            {q.answer}
+                          </ReactMarkdown>
                         </div>
                       </div>
                       <div className="flex gap-2">
